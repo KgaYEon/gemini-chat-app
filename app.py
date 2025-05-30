@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 # Configure Google API
-GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
+GOOGLE_API_KEY = "AIzaSyDrp3M2rZnG9ryJWpZZ7L7Rsm-Lv7Q2zJg"  # API 키 직접 설정
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Set up the model
